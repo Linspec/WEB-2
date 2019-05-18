@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AULÃO 7-A VOLTA DE LINS MAIS VOLTADO AINDA</title>
+<meta charset="UTF-8">
+<script src="igu7aula.js"></script>
+</head>
+<body>
+<CENTER>
+<FORM NAME="Calc">
+<TABLE BORDER=4 WIDTH="155" bgcolor="green">
+	<TR>
+		<TD ALIGN="CENTER">
+			<INPUT TYPE="text" id="visor" SIZE="30">
+		</TD>
+	</TR>
+	<TR>
+		<TD ALIGN="CENTER">
+			<INPUT TYPE="button" id="1" VALUE="  1  " onclick="preencher(1)" />
+			<INPUT TYPE="button" id="2" VALUE="  2  " onclick="preencher(2)" />
+			<INPUT TYPE="button" id="3" VALUE="  3  " onclick="preencher(3)" />
+			<INPUT TYPE="button" id="+" VALUE="  +  " onclick="preencher('+')" />
+			<BR><br>
+			<INPUT TYPE="button" id="4" VALUE="  4  " onclick="preencher(4)" />
+			 <INPUT TYPE="button"id="5" VALUE="  5  " onclick="preencher(5)" />
+			 <INPUT TYPE="button"id="6" VALUE="  6  " onclick="preencher(6)" />
+			 <INPUT TYPE="button"id="-" VALUE="  -  " onclick="preencher('-')" />
+			<BR><br>
+			 <INPUT TYPE="button"id="7" VALUE="  7  " onclick="preencher(7)" />
+			 <INPUT TYPE="button"id="8" VALUE="  8  " onclick="preencher(8)" />
+			 <INPUT TYPE="button"id="9" VALUE="  9  " onclick="preencher(9)" />
+			 <INPUT TYPE="button"id="x" VALUE="  x  " onclick="preencher('*')" />
+			<BR><br>
+			 <INPUT TYPE="button"id="clear" VALUE="  c  " onclick="limpar()" />
+			 <INPUT TYPE="button"id="0" VALUE="  0  " onclick="preencher(0)" />
+			 <INPUT TYPE="button"id="=" VALUE="  =  " onclick="calcular()" />
+			 <INPUT TYPE="button"id="/" VALUE="  /  " onclick="preencher('/')" />
+		</TD>
+	</TR>
+</TABLE>
+</FORM>
+
+<form action="lins7.php">
+	<fieldset><legend>Cálculo do IMC</legend>
+		<label for="kg" />Quilos<input type="text" placeholder="entre com seu peso" id="kg" value=""></input>
+		<br>
+		<label for="metros" />altura<input type="text" placeholder="entre com os metros"  id="metros" value=""></input>
+		<br>
+		<input type="button" onclick="calculate()" id="calcular" value="calcular"></input>
+		<label for="resul" />Resultado<input type="text" id="resul"></input>
+	</fieldset>
+</form>	
+</CENTER>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
